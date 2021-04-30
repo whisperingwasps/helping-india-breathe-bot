@@ -1,0 +1,23 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - hey there
+    - Hi
+- intent: ask_for_help
+  examples: |
+    - I need help with [hospital beds](help_type) in [Delhi](location)
+    - where can I get [oxygen cylinders](help_type) in [Chennai](location) ?
+    - I need [remdesivir](help_type) injection. Anyone knows where it is in [Bangalore](location) ?
+    - I know someone who is in Quarantine. Is someone arranging [food](help_type) nearby? There are in [Lucknow](location)
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you around
+    - see you later
